@@ -119,13 +119,13 @@ assignment](https://github.com/alecjacobson/computer-graphics-ray-casting).
 
 ### `PointLight::direction` in `src/PointLight.cpp`
 
-Compute the direction to a point light source and its _parametric_ distance from
+Compute the direction to a point light source and its distance from
 a query point.
 
 ### `DirectionalLight::direction` in `src/DirectionalLight.cpp`
 
-Compute the direction to a direction light source and its _parametric_ distance from a
-query point (infinity).
+Compute the direction to a direction light source and its distance from a
+query point (for directional lights, this should be infinity!).
 
 ### `src/raycolor.cpp`
 
