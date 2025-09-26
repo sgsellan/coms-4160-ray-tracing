@@ -1,11 +1,5 @@
 # Computer Graphics – Ray Tracing
 
-> **To get started:** Clone this repository and its submodule using
-> 
->     git clone --recursive http://github.com/alecjacobson/computer-graphics-ray-tracing.git
->
-> **Do not fork:** Clicking "Fork" will create a _public_ repository. If you'd like to use GitHub while you work on your assignment, then mirror this repo as a new _private_ repository: https://stackoverflow.com/questions/10065526/github-how-to-make-a-fork-of-public-repository-private
-
 ## Background
 
 ### Read Sections 4.5-4.9 of _Fundamentals of Computer Graphics (4th Edition)_.
@@ -119,13 +113,13 @@ assignment](https://github.com/alecjacobson/computer-graphics-ray-casting).
 
 ### `PointLight::direction` in `src/PointLight.cpp`
 
-Compute the direction to a point light source and its _parametric_ distance from
+Compute the direction to a point light source and its distance from
 a query point.
 
 ### `DirectionalLight::direction` in `src/DirectionalLight.cpp`
 
-Compute the direction to a direction light source and its _parametric_ distance from a
-query point (infinity).
+Compute the direction to a direction light source and its distance from a
+query point (for directional lights, this should be infinity!).
 
 ### `src/raycolor.cpp`
 
