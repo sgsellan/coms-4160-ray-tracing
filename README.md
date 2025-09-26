@@ -5,7 +5,7 @@
 ### Read Sections 4.5-4.9 of _Fundamentals of Computer Graphics (4th Edition)_.
 
 Many of the classes and functions of this assignment are borrowed or adapted
-from the previous [ray casting assignment](https://github.com/alecjacobson/computer-graphics-ray-casting).
+from the previous [ray casting assignment](https://github.com/sgsellan/coms-4160-ray-casting).
 
 Unlike that assignment, this [ray
 tracer](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) will produce
@@ -109,7 +109,7 @@ example, for `double` floating point, use `std::numeric_limits<double>::infinity
 ### `src/Plane.cpp`,<br> `src/Sphere.cpp`,<br> `src/Triangle.cpp`,<br> `src/TriangleSoup.cpp`,<br> `src/first_hit.cpp`,<br> `src/viewing_ray.cpp`,<br> `src/write_ppm.cpp`
 
 See the previous [ray casting
-assignment](https://github.com/alecjacobson/computer-graphics-ray-casting).
+assignment](https://github.com/sgsellan/coms-4160-ray-casting).
 
 ### `PointLight::direction` in `src/PointLight.cpp`
 
