@@ -33,7 +33,8 @@ creates a number of challenges in numerical method and rendering is not immune
 to them. We see this in the need for a [fudge
 factor](https://en.wikipedia.org/wiki/Fudge_factor) to discard ray-intersections
 when computing shadows or reflections that are too close to the originating
-surface (i.e., false intersections due to numerical error).
+surface (i.e., false intersections due to numerical error). 
+Small numbers of the order of 0.000001 or smaller make for reasonable fudge factor values.
 
 > **Question:** If we build a ray and a plane with floating point coefficients,
 > will the intersection point have floating point coefficients? What if we
@@ -125,6 +126,7 @@ query point (for directional lights, this should be infinity!).
 
 Make use of `first_hit.cpp` to shoot a ray into the scene, collect hit
 information and use this to return a color value. 
+You will need to specify a maximum recursive level: you are encouraged to experiment with different values until you encounter diminishing returns (i.e., a time will come when increasing the recursive depth makes the code slower with no visible effect on the output). Values like a maximum of ten recursive levels are reasonable.
 
 ### `src/blinn_phong_shading.cpp`
 
